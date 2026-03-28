@@ -9,6 +9,11 @@
 ![UI](https://img.shields.io/badge/SwiftUI-Framework-0066CC?style=flat-square&logo=swift&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Private%20Beta-orange?style=flat-square)
 
+<p align="center">
+  <img src="screenshots/codeport.png" alt="CodePort Screenshot" width="700">
+</p>
+
+
 ---
 
 ## What is CodePort?
