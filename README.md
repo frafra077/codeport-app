@@ -1,6 +1,7 @@
 # CodePort 📱→🖥️
 
-> Control OpenAI Codex on your Mac — from your iPhone.
+> No more rushing to your desk every time inspiration strikes.
+> Send your prompt from your iPhone — let Codex do the work.
 
 ![Platform](https://img.shields.io/badge/Platform-iOS%2017%2B-black?style=flat-square&logo=apple)
 ![Platform](https://img.shields.io/badge/Platform-macOS%2014%2B-black?style=flat-square&logo=apple)
@@ -12,10 +13,8 @@
 
 ## What is CodePort?
 
-CodePort is an iOS app that lets you interact with OpenAI Codex running on your Mac,
-directly from your iPhone or iPad.
-No more rushing to your desk every time inspiration strikes.
-Open CodePort, send your prompt, and let Codex do the work — wherever you are.
+CodePort brings OpenAI Codex to your iPhone.
+Send prompts, monitor runs, and stay in control — no matter where you are.
 
 > 💡 CodePort is not a standalone AI — it connects to Codex running on your Mac
 > through **CodePort Bridge**, a native Mac app that runs silently in the background.
@@ -29,14 +28,17 @@ CodePort is made of two native apps, both built with Swift:
 
 | App | Platform | Role |
 |-----|----------|------|
-| 📱 **CodePort** | iPhone / iPad | Send prompts, see responses |
-| 🖥️ **CodePort Bridge** | Mac | Connects to Codex and relays data to your iPhone |
+| 📱 **CodePort** | iPhone / iPad | Send prompts, monitor responses, stay in control |
+| 🖥️ **CodePort Bridge** | Mac | Connects to Codex and relays everything to your iPhone |
 
 ### 🔧 Setup — done once, remembered forever
 
 1. Launch **CodePort Bridge** on your Mac — it displays a QR code
 2. Open **CodePort** on your iPhone and scan the QR code
 3. **Done.** From now on, both apps connect automatically every time they launch
+
+> ⚠️ **Requires both devices on the same Wi-Fi network.**
+> Remote access via relay is planned for a future release.
 
 ### ⚡ Daily use
 
@@ -46,18 +48,27 @@ CodePort is made of two native apps, both built with Swift:
 
 ---
 
+## Requirements
+
+- iPhone or iPad running **iOS 17+**
+- Mac running **macOS 14+**
+- **OpenAI Codex** installed and configured on your Mac
+- Both devices on the **same Wi-Fi network**
+
+---
+
 ## Features
 
-| | Feature | Description |
-|---|---------|-------------|
-| 📱 | **iPhone & iPad** | Send prompts to Codex from any iOS device |
-| 🔄 | **Real-time responses** | See Codex output directly on your device |
-| 📷 | **QR code pairing** | Connect your iPhone and Mac in seconds, just once |
-| 🔁 | **Auto-reconnect** | Once paired, apps connect automatically on every launch |
-| 🔒 | **Local connection** | Your data stays between your iPhone and your Mac |
-| 🖥️ | **No terminal required** | CodePort Bridge is a fully native Mac app |
-| 🔧 | **Zero configuration** | Scan once, use forever |
-| ⚡ | **Native performance** | Both apps built with Swift and SwiftUI |
+| Feature | Description |
+|---------|-------------|
+| 📱 **iPhone & iPad** | Send prompts to Codex from any iOS device |
+| 🔄 **Real-time responses** | See Codex output streaming directly on your screen |
+| 📷 **QR code pairing** | Connect your iPhone and Mac in seconds, just once |
+| 🔁 **Auto-reconnect** | Once paired, apps connect automatically on every launch |
+| 🔒 **Local connection** | Your data stays between your iPhone and your Mac — never leaves your network |
+| 🖥️ **No terminal required** | CodePort Bridge is a fully native Mac app |
+| 🔧 **Zero configuration** | Scan once, use forever |
+| ⚡ **Native performance** | Both apps built with Swift and SwiftUI |
 
 ---
 
@@ -74,7 +85,8 @@ CodePort is made of two native apps, both built with Swift:
 ## Status
 
 > 🚧 **Currently in private testing.**
-> The app is under active development. Core features are being refined before a public beta.
+> Core features are being refined before a public beta.
+> The project is actively developed and updated regularly.
 
 Want to be notified when CodePort is ready?
 👉 **[Join the waitlist](#)** *(link coming soon)*
@@ -87,17 +99,33 @@ Want to be notified when CodePort is ready?
 
 ---
 
+## Roadmap
+
+- [x] QR code pairing
+- [x] Real-time response streaming
+- [x] Auto-reconnect on launch
+- [ ] Remote access via relay (outside home network)
+- [ ] Push notifications when a run completes
+- [ ] iPad optimized layout
+- [ ] Public beta
+
+---
+
 ## Follow the Journey
 
 This project is being built in public. Follow updates on X:
 
-[![X (Twitter)](https://img.shields.io/badge/Follow_on_X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/tuousername)
+[![X (Twitter)](https://img.shields.io/badge/Follow_on_X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/fraraf85)
 
 ---
 
 ## Disclaimer
 
 > CodePort is an independent project and is not affiliated with, endorsed by,
-> or officially connected to OpenAI. Codex is a trademark of OpenAI.
+> or officially connected to OpenAI in any way.
+> Codex is a product and trademark of OpenAI.
 
-> 🔒 *Source code is not public — this is a showcase repository.*
+---
+
+> 🔒 *This is a showcase repository. Source code is available to collaborators
+> and testers only.*
