@@ -24,16 +24,26 @@ CodePort is not a standalone AI runtime. Codex still runs on your Mac through **
 
 ---
 
-## Download CodePort Bridge
+## Download CodePort Bridge First
 
-CodePort requires the Mac companion app before the iPhone app can connect.
+> **Important:** CodePort on iPhone needs **CodePort Bridge** running on your Mac.
+> Install the Mac app first, then pair your iPhone by scanning the QR code shown by the Bridge.
 
-[![Download CodePort Bridge](https://img.shields.io/badge/Download-CodePort%20Bridge-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/frafra077/codeport-app/releases)
+<p align="center">
+  <a href="https://github.com/frafra077/codeport-app/releases">
+    <img src="https://img.shields.io/badge/Download%20CodePort%20Bridge-macOS%20App-000000?style=for-the-badge&logo=github&logoColor=white" alt="Download CodePort Bridge">
+  </a>
+</p>
+
+**Get the Mac app here:** [github.com/frafra077/codeport-app/releases](https://github.com/frafra077/codeport-app/releases)
+
+### Bridge Setup
 
 1. Download the latest **CodePort Bridge** release for macOS.
-2. Move the app to **Applications**.
-3. Launch CodePort Bridge and keep it running in the menu bar.
-4. Open CodePort on iPhone and scan the QR code shown by the Bridge.
+2. Move **CodePort Bridge.app** to **Applications**.
+3. Launch CodePort Bridge on your Mac.
+4. Keep it running in the menu bar.
+5. Open CodePort on iPhone and scan the QR code shown by the Bridge.
 
 After pairing once, CodePort remembers your trusted Mac and reconnects automatically.
 
